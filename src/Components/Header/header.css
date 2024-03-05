@@ -1,16 +1,10 @@
 header {
-  height: 140vh;
+  height: 90vh;
   padding-top: 4rem;
   overflow: hidden;
-}
-
-.header_container {
   text-align: center;
-  height: 100%;
   position: relative;
 }
-
-/* ------------------ CTA ------------------ */
 
 .cta {
   margin-top: 2.5rem;
@@ -19,40 +13,29 @@ header {
   justify-content: center;
 }
 
-/* ------------------ HEADER SOCIALS ------------------ */
 .header_socials {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 3rem;
 }
-
-/* 
-.header_socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-} */
-
-/* ------------------ ME ------------------ */
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-
-/* ------------------ SCROLL DOWN ------------------ */
 
 .scroll_down {
   position: absolute;
@@ -62,28 +45,38 @@ header {
   font-size: 2rem;
 }
 
-/*  ------------------ MEDIA QUERIES (MEDIUM DEVICES) ------------------  */
-
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
+
+  .me {
+    width: 90vw;
+    height: 20vh;
+    /* margin-top: 10vh; */
+    padding: 5vh 1.5rem 1.5rem 1.5rem;
+  }
 }
 
-/*  ------------------ MEDIA QUERIES (SMALL DEVICES) ------------------  */
+@media screen and (max-width: 480px) {
+  header {
+    height: 83vh;
+  }
 
-.header_socials {
-  margin-top: 0;
-  width: 300px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  .header_socials {
+    bottom: 0vh;
+  }
+
+  .me {
+    height: 40vh;
+    margin-top: 10vh;
+    padding: 5vh 1.5rem 1.5rem 1.5rem;
+  }
 }
 
 .header_socials a {
-  font-size: 2.5em;
+  font-size: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  width: 50px
 }
