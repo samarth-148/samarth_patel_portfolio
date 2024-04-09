@@ -13,7 +13,7 @@ const data = [
     image: IMG1,
     title: "Blogify",
     github: "https://github.com/samarth-148/Blogify",
-    demo: "https://react-blogging-website.netlify.app/",
+    demo: "https://blogifybysam.netlify.app/",
   },
   {
     id: 2,
