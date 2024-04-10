@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import CV from "../../assets/Samarth_Patel_Resume.pdf";
+import CV from "../../assets/Samarth+Patel.pdf";
 import "./header.css";
 function CTA() {
   return (

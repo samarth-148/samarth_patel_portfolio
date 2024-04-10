@@ -18,20 +18,15 @@ function About() {
         </div>
         <div className="about_content">
           <p>
-            👋 Hi there ! I'm Samarth patel. As a Full Stack Developer, I
-            specialize in designing dynamic and responsive web apps that make a
-            lasting impression. With a good understanding of modern frontend
-            technologies such as React.js, I successfully manage state with
-            Redux and Recoil, ensuring smooth data flow. My backend expertise in
-            Node.js and Express.js enables me to smoothly combine robust
-            functionality and elegant design. I pay close attention to detail
-            and create interesting user interfaces with HTML, CSS, and
-            JavaScript. I prioritize performance and security when maintaining
-            databases using MySQL, MongoDB, and PostgreSQL, as well as providing
-            secure authentication with JWT. Passionate in system design, agile
-            approaches, and continuous improvement, I thrive in collaborative
-            contexts and strive for perfection. Let's work together to build
-            something extraordinary.
+            👋 Hi there ! I'm Samarth patel. With over two years of software
+            engineering experience, I specialize in designing, developing, and
+            optimizing web applications within large enterprise environments.
+            Skilled in working with both brownfield and greenfield projects,
+            including migrating legacy monolithic applications to
+            microservice-based architecture. Proficient in building applications
+            using JavaScript and Python. Possess excellent communication skills
+            to understand customer pain points and analyze complex problems,
+            with a focus on delivering effective solutions.
           </p>
 
           <a href="#contact" className="btn btn-primary">

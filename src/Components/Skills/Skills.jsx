@@ -11,7 +11,7 @@ function Skills() {
       <h2>My Experiance</h2>
       <div className="container skills_container ">
         <div className="skills_frontend">
-          <h3>Frontend Developer</h3>
+          <h3>Frontend</h3>
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
@@ -44,7 +44,7 @@ function Skills() {
           </div>
         </div>
         <div className="skills_backend">
-          <h3>Backend Developer</h3>
+          <h3>Backend</h3>
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
@@ -56,15 +56,15 @@ function Skills() {
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>EJS</h4>
+              <h4>Python</h4>
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>JWT(JSON Web Tokens)</h4>
+              <h4>Django</h4>
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>Zod</h4>
+              <h4>Flask</h4>
             </article>
           </div>
         </div>
@@ -85,11 +85,32 @@ function Skills() {
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>GraphQL</h4>
+              <h4>Microsoft SQL Server</h4>
+            </article>
+          </div>
+        </div>
+        <div className="skills_cloud">
+          <h3>Cloud</h3>
+          <div className="skills_cloud">
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>Amazon Web Services</h4>
             </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
-              <h4>RESTful APIs</h4>
+              <h4>MicroSoft Azure</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>Google Cloud Platform</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>Docker</h4>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>Kubernetes</h4>
             </article>
           </div>
         </div>
@@ -104,7 +125,10 @@ function Skills() {
               <BsPatchCheckFill className="skills_details-icon" />
               <h4>C++</h4>
             </article>
-
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <h4>SQL</h4>
+            </article>
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
               <h4>Agile methodologies</h4>

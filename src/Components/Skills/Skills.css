@@ -32,6 +32,7 @@
 .skills_details {
   display: flex;
   gap: 1rem;
+  padding: 2px;
 }
 
 .skills_details-icons {
